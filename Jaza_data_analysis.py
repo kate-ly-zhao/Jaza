@@ -9,7 +9,7 @@ import matplotlib.pyplot as plt
 plt.interactive(False)
 
 # Importing data
-df = pd.read_excel(r'/Users/wangfangyumeng/Downloads/Jaza Discharge Data.xlsx', sheet_name = 'Data')
+df = pd.read_excel(r'/Users/Downloads/Jaza Discharge Data.xlsx', sheet_name = 'Data')
 
 # Creating variables
 power = pd.concat([df.iloc[:, 3:13]])
